@@ -31,7 +31,7 @@ class DNarae:
         if len(sys.argv) is 1:
             exit();
 
-        if (sys.argv[1] == "open" || sys.argv[1] == "OPEN"):
+        if sys.argv[1] == "open" or sys.argv[1] == "OPEN":
             l = Decode(0x100, open(sys.argv[2], "rb").read(), Decode16Bits)
 
         else :
