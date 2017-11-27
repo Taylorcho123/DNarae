@@ -2,7 +2,7 @@
 
 v 0.01.1.
 
-A problem that users can not use command-line argument was edited. 
+A problem that users can not use command-line argument was resolved.
 
 Usage : 
 > python DNarae.py open [file1]
